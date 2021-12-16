@@ -284,6 +284,20 @@ span.psw {
     color :rgb(255, 255, 255);
     transition: all 1s ease 0s;
 }
+.tablichka {
+    background-color: rgb(0, 119, 255);
+    width: 20%;
+    height: 50px;
+    margin-left: 190px;
+    margin-top: -1.7%;
+    align-items: center;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    transform: translate(0, -120%);
+    opacity: 0;
+    color :rgb(255, 255, 255);
+    transition: all 1s ease 0s;
+}
 .tablichka1 {
     background-color: rgb(0, 119, 255);
     width: 20%;
@@ -297,6 +311,7 @@ span.psw {
     transition: all 1s ease 0s;
     color: white;
 }
+
 .tablichka2 {
     background-color: rgb(0, 119, 255);
     width: 20%;
@@ -388,6 +403,7 @@ span.psw {
 }
 .clients p {
     margin-left: 20px;
+    color: rgb(0, 119, 255);
 }
 .comment {
     margin-top: 40%;
@@ -411,6 +427,7 @@ span.psw {
 }
 .comment p {
     margin-left: 20px;
+    color:rgb(0, 119, 255);
     
 }
 
@@ -608,7 +625,7 @@ footer {
   .modal-leave-active .modal-container {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-  }
+  } 
   @media screen and (max-width: 1479px) {
     .head_nav {
     
@@ -651,12 +668,22 @@ footer {
     }
     .coureses-container {
         background-color: rgb(36 40 52);
-        justify-content: center;
-        align-items: center;
         margin-top: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin-left: 30px;
+    }
+    .coureses-container img {
+        width: 60%;
+        height: 40%;
+        margin: 10px 10px;
+        border-radius: 25px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        transition: 0.5s;
+        opacity: 1;
+        position: static;
     }
   }
