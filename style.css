@@ -656,6 +656,11 @@ footer {
         width: 1000px;
         margin: 0px auto;
     }
-    
+}
+
+@media screen and (max-width: 1351px) {
+    .firstRow img {
+        margin-left: 4%;
+    }
   }
   
