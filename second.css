@@ -368,6 +368,16 @@ footer {
     transform: translateX(0);
     opacity: 1;
 }
+.inputs input {
+    border-radius: 10px;
+}
+
+.inputs button {
+    background-color:rgb(0, 119, 255);
+    margin-right: -60px;
+    width: 60%;
+    border-radius: 50px;
+}
 
 @media screen and (max-width: 1479px) {
     .head_nav {
