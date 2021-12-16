@@ -32,6 +32,7 @@ $(document).ready(function() {
         }else {
             $('.tablichka4').removeClass('active');
         }
+        
         // end of animation
     
         if ($(this).scrollTop() > 2000) {
