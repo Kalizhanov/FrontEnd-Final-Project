@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+</head>
+
+<body>
+    <style>
+        body{
+    overflow-x: hidden;
+}
+/* //second page */
+header {
+    background-color: rgb(36 40 52);;
+}
+.head_nav {
+    
+    display: flex;
+    justify-content: space-between;
+    width: 1470px;
+    margin: 0px auto;
+}
+.btn-container {
+    height: 50%;
+    width: 15%;
+    margin-top: 25px;
+    margin-right: 10px; 
+}
+.btn-container button {
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 119, 255);
+    border: rgb(0, 119, 255);
+    border-radius: 25px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btn-container button:hover {
+    background-color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255);
+    color:black;
+}
+
+
+
+.logo {
+    justify-content: center;
+    display: flex;
+}
+.logo img {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+.name {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10%;
+}
+.name p, h3 {
+    color: white;
+    margin:-10%;
+}
+.nav {
+    display: flex;
+    width: 45%;
+    justify-content: end;
+}
+.nav-tabs {
+    
+    margin-top: 25px;
+    margin-right: 30px;
+    margin-left: 10px;
+    height: 50%;
+    width: 60%;
+    background-color: white;
+    text-align: center;
+    align-items: flex-end;
+    border-radius: 25px;
+    display: flex;
+    
+}
+.nav-tabs a {
+    text-decoration: none;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    padding-top: 3%;
+    
+}
+    </style>
+    <header>
+        
+        <div class="head_nav">
+            
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+                <div class="name">
+                    <h3>Ustem</h3>
+                    <p>robotics</p>
+                </div>
+            </div>
+            
+            <div class="nav">   
+                    <div class="nav-tabs">
+                        
+                        <a href=".courses">Courses  </a>
+                        <a href="#">Why us?  </a>
+                        <a href="#">FAQ  </a>
+                        <a href="#">Classroom  </a>
+                        <a href="#">Address</a>
+                        
+                        
+                        
+                    </div>
+                <div class="btn-container" id = "app" v-cloak>
+                    <button class="btn" v-on:click = "LoginPage">Log in</button>
+                </div>
+                
+            </div>
+        </div>
+        
+    </header>
+<div></div>
+    
+</body>
+</html>
