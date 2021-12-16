@@ -347,7 +347,6 @@ span.psw {
 
 .coureses-container {
     background-color: rgb(36 40 52);
-    justify-content: center;
     align-items: center;
     margin-top: 30px;
     display: flex;
@@ -364,7 +363,7 @@ span.psw {
     margin-bottom: 60px;
     transition: 0.5s;
     opacity: 1;
-    /* position: static; */
+    position: static;
 }
 .coureses-container img:hover {
     opacity: 0.2;
@@ -372,25 +371,6 @@ span.psw {
 
 .courses-icons p{
     color: rgb(0, 119, 255);
-}
-.courses-name {
-    position: absolute;
-    top: 158%;
-    left: 29%;
-}
-.courses-name1 {
-    position: absolute;
-    top: 158%;
-    left: 54%;
-    
-
-}
-.courses-name2 {
-    position: absolute;
-    top: 158%;
-    left: 83%;
-
-
 }
 .head_nav1 {
     
@@ -689,12 +669,22 @@ footer {
     }
     .coureses-container {
         background-color: rgb(36 40 52);
-        justify-content: center;
-        align-items: center;
         margin-top: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin-left: 30px;
+    }
+    .coureses-container img {
+        width: 60%;
+        height: 40%;
+        margin: 10px 10px;
+        border-radius: 25px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        transition: 0.5s;
+        opacity: 1;
+        position: static;
     }
   }
