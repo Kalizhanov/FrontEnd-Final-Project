@@ -364,7 +364,7 @@ span.psw {
     margin-bottom: 60px;
     transition: 0.5s;
     opacity: 1;
-    position: static;
+    /* position: static; */
 }
 .coureses-container img:hover {
     opacity: 0.2;
