@@ -50,7 +50,7 @@ $(document).ready(function() {
             $('.comment').removeClass('active2');
         }
     
-        if($(this).scrollTop() > 1000)  {
+        if($(this).scrollTop() > 800)  {
             $('.client-info').addClass('active3');
         }else {
             $('.client-info').removeClass('active3');
