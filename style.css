@@ -678,4 +678,23 @@ footer {
         font-size: 10px;
     }
   }
-  
+  @media screen and (max-width: 1149px) {
+    .clients-container {
+        background-color: rgb(36 40 52);
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .coureses-container {
+        background-color: rgb(36 40 52);
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+  }
