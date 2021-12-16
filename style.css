@@ -644,8 +644,9 @@ footer {
         padding-top: 3%;
         font-size: 12px;
     }
-  }
-  @media screen and (max-width: 1351px) {
+}
+
+@media screen and (max-width: 1351px) {
     .firstRow img {
         margin-left: 4%;
     }
