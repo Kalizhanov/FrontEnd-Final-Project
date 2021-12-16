@@ -648,4 +648,13 @@ footer {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
+  @media screen and (max-width: 1479px) {
+    .head_nav {
+    
+        display: flex;
+        justify-content: space-between;
+        width: 1000px;
+        margin: 0px auto;
+    }
+  }
   
