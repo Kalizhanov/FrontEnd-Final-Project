@@ -501,11 +501,19 @@ span.psw {
     transform: translateX(-120%);
     opacity: 0;
     transition: all 1s;
+    
+}
+.vid1 img {
+    border: 3px solid rgb(0, 119, 255);
+    
 }
 .vid2 {
     transform: translateX(120%);
     opacity: 0;
     transition: all 1s;
+}
+.vid2 img {
+    border: 3px solid rgb(0, 119, 255);
 }
 .active1 {
     transform: translateX(0);
