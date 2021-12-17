@@ -74,11 +74,11 @@
             <div class="nav">   
                     <div class="nav-tabs">
                         
-                        <a href=".courses">Courses  </a>
-                        <a href="#">Why us?  </a>
-                        <a href="#">FAQ  </a>
-                        <a href="#">Classroom  </a>
-                        <a href="#">Address</a>
+                        <a href="#1">Courses  </a>
+                        <a href="#2">Why us?  </a>
+                        <a href="#3">Partners </a>
+                        <a href="#4">Classroom  </a>
+                        <a href="#5">Address</a>
                         
                         
                         
@@ -103,11 +103,11 @@
                 <div class="firstOne">
                     <img src="images/copy2.jpg" alt="bcgrPic">
                     <h1>USTEM ROBOTICS</h1>
-                    <button href="https://docs.google.com/forms/d/1pM90zjVndmfRoyKSbQjAxvhWTdwd4KUpZ4vQYf74z6s/viewform?edit_requested=true" target="_blank" class="btn"><span  class="sighUpT">Try lesson</span></button>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1O-NqrfZbKxVe6TVcmijBLlZOYs7buLfzqwVyYhsCOeH7iQ/viewform" target="_blank"><button class="btn"><span  class="sighUpT">Try lesson</span> </button></a>
                 </div>
             </section>
 
-            <section class="why_us">
+            <section class="why_us" id = "1">
                 <!-- <div class="head-nav1" style="width: 1170px;margin: 0px auto;"> -->
                     <div class="tablichka1">
                         <h2>Our courses</h2>
@@ -136,7 +136,7 @@
                 
             </section>
         
-            <section class="why_us">
+            <section class="why_us" id = "2">
                 <!-- <div class="head-nav1" style="width: 1170px;margin: 0px auto;"> -->
                     <div class="tablichka1">
                         <h2>Why us?</h2>
@@ -183,7 +183,7 @@
                 
             </section>
         
-            <section class="SecMain">
+            <section class="SecMain" id = "3">
                 <!-- <div class="head-nav1" style="width: 1170px;margin: 0px auto;"> -->
                     <div class="tablichka2" ><h2>Partners</h2> </div>
                     <div class="firstRow">
@@ -200,7 +200,7 @@
                 
             </section>
         
-            <section class="ThirdMain">
+            <section class="ThirdMain" id ="4">
             <!-- <div class="head-nav1" style="width: 1170px;margin: 0px auto;"> -->
                 <div class="tablichka3"><h2>Our Classrooms</h2> </div>
                 <div class="ImgVid">
@@ -221,7 +221,7 @@
                 </div>
                 </section>
             </div>
-                <section class="FourthMain"></div>
+                <section class="FourthMain" id = "5"></div>
             
                 
             </section>
@@ -234,11 +234,11 @@
                 <div class="item">© 2021 All rights reserved</div>
             </div>
             <div class="foot">
-                <p>Why us?</p>
-                <p>Courses</p>
-                <p>Partners</p>
-                <p>FAQ</p>
-                <p>Address</p>
+               <p> <a href="#1">Courses  </a> </p> 
+               <p> <a href="#2">Why us?  </a></p>
+                <p><a href="#3">Partners </a></p>
+                <p><a href="#4">Classroom  </a></p>
+                <p><a href="#5">Address</a></p>
             </div>
             <div class="foot">
                 <p>Follow us</p>
@@ -276,6 +276,11 @@
           
         });
       </script>
+      <script>
+        function GoUrl(url){
+            location.href=url;
+        }
+    </script>
        <script src="script.js"></script>
 </body>
 
