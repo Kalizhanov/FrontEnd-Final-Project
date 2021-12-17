@@ -140,7 +140,7 @@ header {
     /* border-radius: 20px; */
 }
 .back {
-    background: rgb(36 40 52);
+    background: white;
     z-index: 1;
     transform: rotateY(180deg);
 }
