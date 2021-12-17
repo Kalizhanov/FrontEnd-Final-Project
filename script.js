@@ -52,8 +52,6 @@ $(document).ready(function() {
     
         if($(this).scrollTop() > 800)  {
             $('.client-info').addClass('active3');
-        }else {
-            $('.client-info').removeClass('active3');
         }
     
         

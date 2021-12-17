@@ -76,7 +76,7 @@
                             <a href="#">Address</a>
                         </div>
                         <div id="app">
-                            <button id="show-modal" @click="showModal = true">Login</button>
+                            <button id="show-modal" @click="showModal = true" class="app-button">Login</button>
                           
                             <modal v-if="showModal" @close="showModal = false">
                            
@@ -216,8 +216,10 @@
                        
                     
                       </div>
-                       <!-- <hr class="gorizantialLine2"> -->
-                      <button class= "triallessonbtn">trial lesson</button>
+                      <div class="buttom-container">
+                        <!-- <hr class="gorizantialLine2"> -->
+                       <button class= "buttom">trial lesson</button>
+                     </div>
                       </div>
                
                 </main>
