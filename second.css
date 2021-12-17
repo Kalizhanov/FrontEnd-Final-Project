@@ -113,7 +113,7 @@ header {
     transform-style: preserve-3d;
     margin: 20px;
     border-radius: 10px;
-    box-shadow: 4px 4px 14px rgb(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 14px rgb(36 40 52);
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -140,7 +140,7 @@ header {
     /* border-radius: 20px; */
 }
 .back {
-    background: black;
+    background: rgb(36 40 52);
     z-index: 1;
     transform: rotateY(180deg);
 }
@@ -189,6 +189,16 @@ footer {
 
   padding: 5px;
   margin-bottom: 1em;
+}
+
+.inputs button {
+    background-color: rgb(0, 119, 255);
+    width: 50%;
+    border-radius: 50px;
+    font-size: 25px;
+}
+.inputs input {
+    border-radius: 10px;
 }
 
 .btn {
@@ -403,16 +413,7 @@ footer {
     transform: translateX(0);
     opacity: 1;
 }
-.inputs input {
-    border-radius: 10px;
-}
 
-.inputs button {
-    background-color:rgb(0, 119, 255);
-    margin-right: -60px;
-    width: 60%;
-    border-radius: 50px;
-}
 
 #show-modal {
     margin-top: 29%;

@@ -143,7 +143,15 @@ input[type=text], input[type=password] {
   box-sizing: border-box;
 }
 
-
+ .inputs button {
+     background-color: rgb(0, 119, 255);
+     width: 50%;
+     border-radius: 50px;
+     font-size: 19px;
+ }
+ .inputs input {
+     border-radius: 10px;
+ }
 button {
     background-color: rgb(0, 119, 255);
   color: white;
@@ -623,6 +631,7 @@ footer {
   .modal-leave-active {
     opacity: 0;
   }
+  
   
   .modal-enter .modal-container,
   .modal-leave-active .modal-container {
