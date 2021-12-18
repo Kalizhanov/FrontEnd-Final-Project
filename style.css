@@ -37,7 +37,17 @@ header {
 }
 
 
-
+.cou{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-family: Montserrat;
+    color:#FFFFE0;
+}.curs  img{
+   opacity: 0.3;
+}
+ 
 .logo {
     justify-content: center;
     display: flex;
